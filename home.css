@@ -121,7 +121,6 @@
     width: 25%;
     padding: 20px;
     display: inline-block;
-    float: right;
     text-align: left;
   }  
 
@@ -211,6 +210,7 @@
     background-image: url(./images/about-page\ \(1\).jpg);
     background-size: cover;
     margin-top: 40px;
+    margin-left: 50px;
   }
 
   section .ads{
@@ -291,4 +291,73 @@
     grid-template-columns: repeat(2, 1fr);
     padding-left: 350px;
     padding-right: 350px;
+    margin-top: -150px;
+  }
+
+  section .video-content p{
+    color: rgb(145, 145, 145);
+  }
+
+  section .video-content .huvaah{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+  }
+
+  section .video-content .circle-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(./images/NafSadh_Profile.jpg);
+    background-size: cover;
+  }
+
+  section .video-content .video-text{
+    text-align: left;
+    margin-left: -230px;
+    margin-top: -25px;
+  }
+
+  section .video-content .video-text h2{
+    color: #c02922;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  section .video-content .video-text h1{
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+    margin-top: -20px;
+  }
+
+  section .video-content .red-circle{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-color: #c02922;
+  }
+
+  section .price-title{
+    text-align: center;
+    padding: 200px;
+  }
+
+  section .price-text{
+    text-align: center;
+    padding: 200px;
+    margin-top: -380px;
+  }
+
+  section .price-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 350px;
+    padding-left: 350px;
+  }
+
+  section .price-box .price-type{
+    width: 300px;
+    height: 450px;
+    background-color:royalblue;
   }
